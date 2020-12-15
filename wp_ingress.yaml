@@ -3,6 +3,8 @@ kind: Ingress
 metadata:
   name: wp-ingress
   namespace: wp-namespace
+  labels:
+    app: wordpress
 spec:
   defaultBackend:
     service:
