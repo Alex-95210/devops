@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bdd-namespace
+  
+
+
+#namespace pour la base de données 

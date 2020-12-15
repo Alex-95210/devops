@@ -1,2 +1,2 @@
 # devops
-pour les rendu en devops
+pour le projet 

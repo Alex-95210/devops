@@ -1,9 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: ns-wp
-  labels:
-    type: wp
+  name: wp-namespace
+  
 
 
 #namespace pour le wordpress avec comme label type: wp pour pouvoir lui assigner des quotas et des pods

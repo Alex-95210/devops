@@ -1,0 +1,16 @@
+ apiVersion: v1
+ kind: LimitRange
+ metadata:
+   name: limit-range-bdd
+   namespace: bdd-namespace
+   
+   
+ spec:
+   limits:
+     - type: "Container"
+       defaultRequest:
+         cpu: "50m"
+         memory: "32Mi"
+       default:
+         cpu: "100m"
+         memory: "64Mi"

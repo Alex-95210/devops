@@ -2,8 +2,8 @@
  kind: LimitRange
  metadata:
    name: limit-range-bdd
-   labels:
-     type: bdd
+   namespace: wp-namespace
+   
  spec:
    limits:
      - type: "Container"
